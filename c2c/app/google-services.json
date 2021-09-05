@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "975559254705",
+    "firebase_url": "https://c2clogin-cc447.firebaseio.com",
+    "project_id": "c2clogin-cc447",
+    "storage_bucket": "c2clogin-cc447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975559254705:android:89ca73a1ab77185f",
+        "android_client_info": {
+          "package_name": "com.namankhurpia.easyed.easyed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975559254705-iimb11ttelfa221dcv3l523jv7hkvqcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.namankhurpia.easyed.easyed",
+            "certificate_hash": "e25938278698e57a74a4a2841511fea5650452ec"
+          }
+        },
+        {
+          "client_id": "975559254705-06cdlq8rpu3g9k711b1aaidundrmaeca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPEn614eYDiBjW6JLTpipyJiw7Jt7348g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975559254705-06cdlq8rpu3g9k711b1aaidundrmaeca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

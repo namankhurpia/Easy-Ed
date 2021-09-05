@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.namankhurpia.easyed.easyed.physics"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/rectanggg"
+        android:id="@+id/backbtn"
+        android:background="@null"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       BACK    Physics"
+
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alike_angular"
+        android:text="Magnetic Field Lines"
+        android:textColor="#78476A"
+        android:textSize="30dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:id="@+id/txt"
+        android:text="Electric current produces a magnetic field. This magnetic field can be visualized as a pattern of circular field lines surrounding a wire. One way to explore the direction of a magnetic field is with a compass, as shown by a long straight current-carrying wire in. Hall probes can determine the magnitude of the field. Another version of the right hand rule emerges from this exploration and is valid for any current segment—point the thumb in the direction of the current, and the fingers curl in the direction of the magnetic field loops created by it. /n/n For a long straight wire where I is the current, r is the shortest distance to the wire, and the constant 0=4π10−7 T⋅m/A is the permeability of free space. (μ0 is one of the basic constants in nature, related to the speed of light. ) Since the wire is very long, the magnitude of the field depends only on distance from the wire r, not on position along the wire. This is one of the simplest cases to calculate the magnetic field strenght from a current. /n/n"
+        android:textColor="#78476A"
+        android:maxLines = "5000"
+        android:scrollbars = "vertical"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/arbtn"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:id="@+id/arbtn"/>
+
+
+
+
+
+
+</LinearLayout>
